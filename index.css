@@ -1,0 +1,129 @@
+
+body{
+    color: black;
+    background-color:var(--color-background);
+    font-family: 'Roboto', sans-serif;
+}
+
+.all{
+    margin: 0px 230px 0px 230px ;
+}
+
+body header {
+    margin: 30px 0px 30px 0x;
+    display: flex;
+}
+
+#ffy-logo img{
+    padding-right: 122.4px ;
+    margin-top: 38px;
+}
+
+body header nav{
+    margin-top: 38px;
+}
+
+body header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+    padding: 8px;
+    border: 1px var(--color-background) solid;
+    border-radius: 5px;
+}
+
+body header nav a:hover{
+    color: green;
+    border: 1px green solid ;
+}
+
+nav a:nth-child(1){
+    margin-right: 30px;
+}
+/* === FIM DO HEADER === */
+
+main{
+    width: 940px;
+    height: 366px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1bfb7;
+    border: 2px #ecc5be solid;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+#ffy-theBetterRecipe {
+    flex-direction: column;
+    text-align: center;
+    margin: 130px 0px 130px 60px;
+}
+
+#ffy-theBetterRecipe h3{
+    width: 305px;
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+#ffy-theBetterRecipe p{
+    width: 316px;
+    height: 258px;
+    font-size: 18px;
+    opacity: 70%;   
+    text-align: left;
+}
+
+main figure img{
+    width:216px;
+    height:300px;
+    margin: 66px 100px 0 0;
+}
+
+/* === FIM DO MAIN === */
+
+.ffy-apresentation h4{
+    font-size: 24px;
+    margin: 50px 0 20px 0;
+    text-align: left;
+}
+
+#ffy-recipeMoreAccessed{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+#ffy-recipeMoreAccessed article img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
+}
+
+#ffy-recipeMoreAccessed article p:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;   
+}
+
+#ffy-recipeMoreAccessed article p:nth-child(3){
+    color: #777777;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* === FIM DA SECTION === */
+footer{
+    padding: 20px;
+    background-color: #c2c2c2;
+    margin-top: 50px;
+   
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}

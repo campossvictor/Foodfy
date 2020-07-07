@@ -1,0 +1,96 @@
+body{
+    color: black;
+    background-color:var(--color-background);
+    font-family: 'Roboto', sans-serif; 
+}
+
+.all{
+    margin: 0px 230px 0px 230px;
+}
+
+body header {
+    margin: 30px 0px 30px 0x;
+    display: flex;
+}
+
+#ffy-logo img{
+    padding-right: 122.4px ;
+    margin-top: 38px;
+}
+
+body header nav{
+    margin-top: 29px;
+    display: flex;
+}
+
+body header nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+    padding: 8px;
+    border: 1px var(--color-background) solid;
+    border-radius: 5px;
+}
+
+body header div > a{
+    padding: none;
+    border: none;
+    margin-left: 300px;
+}
+
+nav a:nth-child(1){
+    margin-right: 34px;
+}
+
+body header nav a:nth-child(1):visited:hover{
+    color: green;
+    border: 1px green solid;
+    transition: 300ms;
+}
+
+body header nav a:nth-child(2):visited:hover{
+    color: green;
+    border: 1px green solid;
+    transition: 300ms;
+}
+
+/*=== FIM DO HEADER === */
+section p{
+    color: black;
+    font-size: 18px;
+    text-align: left;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:normal;
+    opacity: 1;
+    
+}
+
+section h3, h4{
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.ffy-about h3 {
+    font-size:24px;
+    margin: 30px 0 10px 0;
+}
+
+section article > h4{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+
+/* === FIM DA SECTION === */
+footer{
+    padding: 20px;
+    background-color: #c2c2c2;
+    margin-top: 50px;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+}
