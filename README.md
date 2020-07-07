@@ -32,7 +32,7 @@ Firstly, I separeted the HTML, CSS and Javascript files in diferent folders like
   
  And finally, I created an dinamic page with Javascript. The dynamism was based on "EventListener", "querySelector" and "getAtributte".
  
- Well, its simples but its just the start!
+ Well, its simples but its just the begin!
  
  So, below you can view my page and you can verify the codes in my repository.
 
