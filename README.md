@@ -21,7 +21,7 @@ Firstly, I separeted the HTML, CSS and Javascript files in diferent folders like
  Secondly, I created HTML structure imagining the page semantics, thinking how I could bring more acessibility
  and how I would manipulate that structure on CSS.
  
- OBS: I told you again: the structure is not perfect, but I'm studing for make it better.
+ OBS: I say again: the structure is not perfect, but I'm studing for make it better.
  
  ### Styling Page
  
